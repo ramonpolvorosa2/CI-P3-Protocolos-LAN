@@ -11,7 +11,6 @@ Capturas de Wireshark analizadas en el informe de la práctica. Se realizaron en
 
 | Fichero | Contenido | Preguntas | Tramas clave |
 |---|---|---|---|
-| `comillas.pcapng` | Acceso a https://www.comillas.edu (7 182 paquetes) | 4–8 | 1240–1243 (DNS), 1371 (TCP servidor → alumno) |
 | `comillas_descifrado.pcapng` | Segunda captura de comillas.edu con descifrado TLS (29 481 paquetes) | 8, apartado 4.10 | 16059–16066 (HTTP/2 descifrado) |
 | `websiteos.pcapng` | Descarga de http://help.websiteos.com/websiteos/example_of_a_simple_html_page.htm (1 863 paquetes) | 9–11 | 962 (GET), 976–977 (200 OK, gzip) |
 | `Direccionamiento.pcapng` | Captura con las tablas ARP y DNS vacías (2 344 paquetes) | 12–14 | 295–296 (ARP), 1650–1651 (DNS) |
